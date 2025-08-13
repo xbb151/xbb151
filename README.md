@@ -1,10 +1,113 @@
-- 👋 Hi, I’m @xbb151
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+# 慢病健康管理H5应用
 
-<!---
-xbb151/xbb151 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+这是一个专为中老年用户设计的慢病健康管理H5页面，可嵌入微信小程序内使用。
+
+## 功能特色
+
+### 🏠 首页
+- 个性化健康概览
+- 今日健康数据展示
+- 快速操作入口
+- 用药提醒
+- 健康趋势分析
+
+### 💊 慢病用药区
+- **药品库**：糖尿病、高血压、降脂药等慢病药品分类展示
+- **用药提醒**：智能用药提醒和用药记录管理
+- **续方提醒**：药品库存监控和续方提醒
+
+### 📚 慢病知识区
+- **疾病知识库**：各种慢病疾病的知识文章
+- **专家科普**：权威专家视频科普内容
+- **分类浏览**：按疾病类型分类的知识内容
+
+### 🛠️ 健康工具区
+- **设备连接**：血压仪、血糖仪等健康设备连接
+- **BMI计算器**：身体质量指数计算工具
+- **健康记录**：历史健康数据查看
+
+### 🏥 健康服务区
+- **在线药师服务**：专业药师在线咨询
+- **AI问诊**：智能健康问答服务
+- **个人健康档案**：完整的个人健康信息管理
+
+## 技术栈
+
+- **前端框架**：React 18
+- **构建工具**：Vite
+- **样式框架**：Tailwind CSS
+- **图标库**：Lucide React
+- **路由**：React Router DOM
+
+## 中老年用户优化
+
+- **大字体设计**：适合中老年用户的字体大小
+- **高对比度**：清晰的色彩对比
+- **大按钮**：符合触摸操作的最小尺寸要求
+- **简化界面**：减少复杂操作，突出核心功能
+- **语音友好**：支持语音输入和朗读
+
+## 安装和运行
+
+1. 安装依赖：
+```bash
+npm install
+```
+
+2. 启动开发服务器：
+```bash
+npm run dev
+```
+
+3. 构建生产版本：
+```bash
+npm run build
+```
+
+## 项目结构
+
+```
+src/
+├── components/          # 通用组件
+│   ├── Header.jsx      # 顶部导航
+│   └── BottomNav.jsx   # 底部导航
+├── pages/              # 页面组件
+│   ├── HomePage.jsx    # 首页
+│   ├── MedicinePage.jsx # 用药管理
+│   ├── KnowledgePage.jsx # 知识库
+│   ├── ToolsPage.jsx   # 健康工具
+│   └── ServicePage.jsx # 健康服务
+├── App.jsx             # 主应用组件
+├── main.jsx            # 应用入口
+└── index.css           # 全局样式
+```
+
+## 微信小程序集成
+
+本H5页面设计为可嵌入微信小程序内使用：
+
+1. 构建生产版本
+2. 将构建后的文件部署到服务器
+3. 在微信小程序中通过web-view组件加载
+
+## 响应式设计
+
+- 移动端优先设计
+- 适配不同屏幕尺寸
+- 支持横屏和竖屏模式
+
+## 浏览器兼容性
+
+- Chrome 60+
+- Safari 12+
+- Firefox 55+
+- Edge 79+
+
+## 开发团队
+
+专为药房连锁商家设计，针对中老年慢病患者需求开发。
+
+## 许可证
+
+MIT License
+
